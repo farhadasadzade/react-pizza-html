@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>React Pizza</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__logo">
+                    <img class="header__logo-img" src="images/logo.svg" alt="logo">
+                    <div class="header__logo-content">
+                        <h1 class="header__logo-title">REACT PIZZA</h1>
+                        <p class="header__logo-text">самая вкусная пицца во вселенной</p>
+                    </div>
+                </div>
+                <button class="header__btn"><pre>  520 ₽  |  <i class="fa-solid fa-cart-shopping"></i>   3  </pre></button>
+            </header>
+            <nav class="nav">
+                <div class="filter">
+                    <a class="filter__link filter-active" href="#">Все</a>
+                    <a class="filter__link" href="#">Мясные</a>
+                    <a class="filter__link" href="#">Вегетарианская</a>
+                    <a class="filter__link" href="#">Гриль</a>
+                    <a class="filter__link" href="#">Острые</a>
+                    <a class="filter__link" href="#">Закрытые</a>
+                </div>
+                <div class="sort">
+                    <i class="fa-solid fa-caret-up"></i> Сортировка по: <a class="sort__link" href="#">популярности</a>
+                    <div class="sort__submenu">
+                        <a class="sort__submenu-link sort-active" href="#">популярности</a>
+                        <a class="sort__submenu-link" href="#">по цене</a>
+                        <a class="sort__submenu-link" href="#">по алфавиту</a>
+                    </div>
+                </div>
+            </nav>
+            <h2 class="title">Все пиццы</h2>
+            <div class="main">
+                <div class="main__pizza">
+                    <div class="main__pizza-info">
+                        <img class="main__pizza-img" src="images/pizza1.png" alt="pizza">
+                    </div>
+                    <h3 class="main__pizza-title">Чизбургер-пицца</h3>
+                    <div class="main__pizza-properties">
+                        <div class="main__pizza-height">
+                            <a class="main__pizza-heightlink pizza-active" href="#">тонкое</a>
+                            <a class="main__pizza-heightlink" href="#">традиционное</a>
+                        </div>
+                        <div class="main__pizza-size">
+                            <a class="main__pizza-sizelink pizza-active" href="#">26 см.</a>
+                            <a class="main__pizza-sizelink" href="#">30 см.</a>
+                            <a class="main__pizza-sizelink" href="#">40 см.</a>
+                        </div>
+                    </div>
+                    <div class="main__pizza-buy">
+                        <h3 class="main__pizza-price">от 395 ₽</h3>
+                        <button class="main__pizza-btn pizza-btn-active"><i class="fa-solid fa-plus"></i> Добавить <span class="pizza-btn-count">2</span></button>
+                    </div>
+                </div>
+                <div class="main__pizza">
+                    <div class="main__pizza-info">
+                        <img class="main__pizza-img" src="images/pizza2.png" alt="pizza">
+                    </div>
+                    <h3 class="main__pizza-title">Сырная</h3>
+                    <div class="main__pizza-properties">
+                        <div class="main__pizza-height">
+                            <a class="main__pizza-heightlink pizza-active" href="#">тонкое</a>
+                            <a class="main__pizza-heightlink" href="#">традиционное</a>
+                        </div>
+                        <div class="main__pizza-size">
+                            <a class="main__pizza-sizelink pizza-active" href="#">26 см.</a>
+                            <a class="main__pizza-sizelink" href="#">30 см.</a>
+                            <a class="main__pizza-sizelink" href="#">40 см.</a>
+                        </div>
+                    </div>
+                    <div class="main__pizza-buy">
+                        <h3 class="main__pizza-price">от 450 ₽</h3>
+                        <button class="main__pizza-btn"><i class="fa-solid fa-plus"></i> Добавить</button>
+                    </div>
+                </div>
+                <div class="main__pizza">
+                    <div class="main__pizza-info">
+                        <img class="main__pizza-img" src="images/pizza3.png" alt="pizza">
+                    </div>
+                    <h3 class="main__pizza-title">Креветки по-азиатски</h3>
+                    <div class="main__pizza-properties">
+                        <div class="main__pizza-height">
+                            <a class="main__pizza-heightlink pizza-active" href="#">тонкое</a>
+                            <a class="main__pizza-heightlink" href="#">традиционное</a>
+                        </div>
+                        <div class="main__pizza-size">
+                            <a class="main__pizza-sizelink pizza-active" href="#">26 см.</a>
+                            <a class="main__pizza-sizelink" href="#">30 см.</a>
+                            <a class="main__pizza-sizelink" href="#">40 см.</a>
+                        </div>
+                    </div>
+                    <div class="main__pizza-buy">
+                        <h3 class="main__pizza-price">от 290 ₽</h3>
+                        <button class="main__pizza-btn"><i class="fa-solid fa-plus"></i> Добавить</button>
+                    </div>
+                </div>
+                <div class="main__pizza">
+                    <div class="main__pizza-info">
+                        <img class="main__pizza-img" src="images/pizza4.png" alt="pizza">
+                    </div>
+                    <h3 class="main__pizza-title">Сырный цыпленок</h3>
+                    <div class="main__pizza-properties">
+                        <div class="main__pizza-height">
+                            <a class="main__pizza-heightlink pizza-active" href="#">тонкое</a>
+                            <a class="main__pizza-heightlink" href="#">традиционное</a>
+                        </div>
+                        <div class="main__pizza-size">
+                            <a class="main__pizza-sizelink pizza-active" href="#">26 см.</a>
+                            <a class="main__pizza-sizelink" href="#">30 см.</a>
+                            <a class="main__pizza-sizelink" href="#">40 см.</a>
+                        </div>
+                    </div>
+                    <div class="main__pizza-buy">
+                        <h3 class="main__pizza-price">от 385 ₽</h3>
+                        <button class="main__pizza-btn"><i class="fa-solid fa-plus"></i> Добавить</button>
+                    </div>
+                </div>
+                <div class="main__pizza">
+                    <div class="main__pizza-info">
+                        <img class="main__pizza-img" src="images/pizza5.png" alt="pizza">
+                    </div>
+                    <h3 class="main__pizza-title">Чизбургер-пицца</h3>
+                    <div class="main__pizza-properties">
+                        <div class="main__pizza-height">
+                            <a class="main__pizza-heightlink pizza-active" href="#">тонкое</a>
+                            <a class="main__pizza-heightlink" href="#">традиционное</a>
+                        </div>
+                        <div class="main__pizza-size">
+                            <a class="main__pizza-sizelink pizza-active" href="#">26 см.</a>
+                            <a class="main__pizza-sizelink" href="#">30 см.</a>
+                            <a class="main__pizza-sizelink" href="#">40 см.</a>
+                        </div>
+                    </div>
+                    <div class="main__pizza-buy">
+                        <h3 class="main__pizza-price">от 395 ₽</h3>
+                        <button class="main__pizza-btn"><i class="fa-solid fa-plus"></i> Добавить</button>
+                    </div>
+                </div>
+                <div class="main__pizza">
+                    <div class="main__pizza-info">
+                        <img class="main__pizza-img" src="images/pizza6.png" alt="pizza">
+                    </div>
+                    <h3 class="main__pizza-title">Сырная</h3>
+                    <div class="main__pizza-properties">
+                        <div class="main__pizza-height">
+                            <a class="main__pizza-heightlink pizza-active" href="#">тонкое</a>
+                            <a class="main__pizza-heightlink" href="#">традиционное</a>
+                        </div>
+                        <div class="main__pizza-size">
+                            <a class="main__pizza-sizelink pizza-active" href="#">26 см.</a>
+                            <a class="main__pizza-sizelink" href="#">30 см.</a>
+                            <a class="main__pizza-sizelink" href="#">40 см.</a>
+                        </div>
+                    </div>
+                    <div class="main__pizza-buy">
+                        <h3 class="main__pizza-price">от 450 ₽</h3>
+                        <button class="main__pizza-btn"><i class="fa-solid fa-plus"></i> Добавить</button>
+                    </div>
+                </div>
+                <div class="main__pizza">
+                    <div class="main__pizza-info">
+                        <img class="main__pizza-img" src="images/pizza7.png" alt="pizza">
+                    </div>
+                    <h3 class="main__pizza-title">Креветки по-азиатски</h3>
+                    <div class="main__pizza-properties">
+                        <div class="main__pizza-height">
+                            <a class="main__pizza-heightlink pizza-active" href="#">тонкое</a>
+                            <a class="main__pizza-heightlink" href="#">традиционное</a>
+                        </div>
+                        <div class="main__pizza-size">
+                            <a class="main__pizza-sizelink pizza-active" href="#">26 см.</a>
+                            <a class="main__pizza-sizelink" href="#">30 см.</a>
+                            <a class="main__pizza-sizelink" href="#">40 см.</a>
+                        </div>
+                    </div>
+                    <div class="main__pizza-buy">
+                        <h3 class="main__pizza-price">от 290 ₽</h3>
+                        <button class="main__pizza-btn"><i class="fa-solid fa-plus"></i> Добавить</button>
+                    </div>
+                </div>
+                <div class="main__pizza">
+                    <div class="main__pizza-info">
+                        <img class="main__pizza-img" src="images/pizza8.png" alt="pizza">
+                    </div>
+                    <h3 class="main__pizza-title">Сырный цыпленок</h3>
+                    <div class="main__pizza-properties">
+                        <div class="main__pizza-height">
+                            <a class="main__pizza-heightlink pizza-active" href="#">тонкое</a>
+                            <a class="main__pizza-heightlink" href="#">традиционное</a>
+                        </div>
+                        <div class="main__pizza-size">
+                            <a class="main__pizza-sizelink pizza-active" href="#">26 см.</a>
+                            <a class="main__pizza-sizelink" href="#">30 см.</a>
+                            <a class="main__pizza-sizelink" href="#">40 см.</a>
+                        </div>
+                    </div>
+                    <div class="main__pizza-buy">
+                        <h3 class="main__pizza-price">от 395 ₽</h3>
+                        <button class="main__pizza-btn"><i class="fa-solid fa-plus"></i> Добавить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/56ce35f76e.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
